@@ -46,6 +46,13 @@
 - `ACCESS_COARSE_LOCATION`  
 These permissions are required to fetch accurate pickup and drop locations.
 
+## 🔗 Play Store
+
+👉 **Download Now:**  
+[[https://play.google.com/store/apps/details?id=com.aihomeworkhelper.user]](https://play.google.com/store/apps/details?id=com.aihomeworkhelper.user)
+
+---
+
 ## 📬 Contact
 
 For questions, feature requests, or support, contact:  
