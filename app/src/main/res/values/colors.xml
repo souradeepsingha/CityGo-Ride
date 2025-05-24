@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#989898</color>
+    <color name="purple_500">#9C9C9C</color>
+    <color name="purple_700">#ACACAC</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="green">#16E120</color>
+    <color name="red">#B60F15</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="gray01">#c5c5c5</color>
+    <color name="gray02">#74777777</color>
+    <color name="gray03">#EDEDED</color>
+    <color name="colorAccent">#1E1E1E</color>
+    <color name="ToVERIFY_Board_colour">#303030</color>
+    <color name="Driver_Board_color">#CBD18F</color>
+    <color name="UserBoardColour">#3A6B35</color>
+    <color name="blue">#0061F1</color>
+    <color name="colorPrimary">#151515</color>
+    <color name="colorPrimaryDark">#75707070</color>
+    <color name="light_blue_600">#FF039BE5</color>
+    <color name="light_blue_900">#FF01579B</color>
+    <color name="light_blue_A200">#FF40C4FF</color>
+    <color name="light_blue_A400">#FF00B0FF</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="black4_overlay">#1BC22F2F</color>
+</resources>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <group
+android:id="@+id/group1"
+        android:checkableBehavior="single"
+
+        >
+
+
+        <item android:id="@+id/home"
+            android:title="home"
+          android:icon="@drawable/baseline_home_24"
+            android:checkable="true"
+           
+            />
+
+        <item android:id="@+id/userbooking"
+            android:title="History"
+   android:icon="@drawable/baseline_history_24"
+            android:checkable="true"
+
+            />
+        <item android:id="@+id/support"
+            android:title="Help"
+           android:icon="@drawable/baseline_support_agent_24"
+            android:checkable="true"
+
+            />
+        <item android:id="@+id/about"
+            android:title="About"
+android:icon="@drawable/about_icon"
+            android:checkable="true"
+
+            />
+
+
+        <item android:id="@+id/Safety"
+            android:title="Safety"
+android:icon="@drawable/baseline_safety_check_24"
+            android:checkable="true"
+
+            />
+        <item android:id="@+id/Notification"
+            android:title="Notification"
+    android:icon="@drawable/baseline_notifications_24"
+            android:checkable="true"
+
+            />
+
+    </group>
+    <group android:id="@+id/group2">
+        <item android:id="@+id/settings"
+            android:title="Settings"
+ android:icon="@drawable/baseline_settings_24"
+            android:checkable="true"
+
+            />
+
+
+
+    </group>
+
+
+
+
+
+</menu>

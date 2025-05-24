@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.AboutPage"
+    android:orientation="vertical"
+  android:background="@drawable/blackbackground"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical"
+        android:padding="10dp"
+        >
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/arrowwhite"
+            android:id="@+id/arrowback1"
+
+            />
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/aboutwhite"
+            android:layout_gravity="center"
+            />
+
+    </LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp"
+    >
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="140dp"
+
+    android:orientation="horizontal"
+    android:gravity="center"
+    >
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/additional_information"
+
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="Additional Information"
+            android:textSize="20dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="Privacy, terms and other information"
+            android:textSize="15dp"
+            android:textColor="#656565"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal"
+         android:background="@drawable/boxbackground"
+            android:gravity="center"
+            android:layout_margin="10dp"
+           android:padding="10dp"
+            android:id="@+id/privacypolicy"
+            >
+
+            <TextView
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:text="Privacy Policy"
+                android:textSize="25dp"
+                android:gravity="center"
+
+                />
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+
+                android:src="@drawable/baseline_keyboard_arrow_right_24" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal"
+          android:background="@drawable/boxbackground"
+            android:gravity="center"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:id="@+id/termsandcondition"
+            >
+
+            <TextView
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:text="Terms and Condition"
+                android:textSize="25dp"
+                android:gravity="center"
+                />
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+
+                android:src="@drawable/baseline_keyboard_arrow_right_24" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

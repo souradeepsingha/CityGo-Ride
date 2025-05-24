@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="com.google.firebase.messaging.permission.SEND" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.User"
+        tools:targetApi="31">
+        <activity
+            android:name=".Activities.mapactivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Bookings"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.CopyCoupon"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.emptyview3"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:exported="false"
+            android:label="@string/title_activity_emptyview3"
+            android:theme="@style/Theme.User.Fullscreen" />
+        <activity
+            android:name=".Activities.Advancebooktrack"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.testdatafetch"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.test"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.ShowMoneyPage"
+            android:label="Show Money Page"
+            android:windowSoftInputMode="stateVisible">
+
+            <!-- Include an intent-filter to specify how the activity can be started -->
+
+        </activity>
+        <activity
+            android:name=".Activities.Coupon"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.emptyview2"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.emptyview"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Introscreen"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.TermsAndCondition"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.PrivacyPolicy"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Supportservice1"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.SupportPayment"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.SupportTechnical"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.SupportAccount"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.SupportRide"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Security"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.payment_option"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Support"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.settings"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Safety"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Notification"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.AboutPage"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Userbooking"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.preBookDriverListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.ReviewActivity"
+            android:exported="false" />
+        <!--
+             TODO: Before you run your application, you need a Google Maps API key.
+
+             To get one, follow the directions here:
+
+                https://developers.google.com/maps/documentation/android-sdk/get-api-key
+
+             Once you have your API key (it starts with "AIza"), define a new property in your
+             project's local.properties file (e.g. MAPS_API_KEY=Aiza...), and replace the
+             "YOUR_API_KEY" string in this file with "${MAPS_API_KEY}".
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyAcrhT6GDVqfHQLKFmoMcFBWa0W-wFUCEg" />
+
+        <activity
+            android:name=".Activities.MapsActivity"
+            android:exported="false"
+            android:label="@string/title_activity_maps" />
+        <activity
+            android:name=".Activities.waitingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.homeDashBoardActivity"
+            android:exported="false"
+
+            />
+        <activity
+            android:name=".Activities.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name=".MyFirebaseMessagingService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <meta-data
+            android:name="com.razorpay.ApiKey"
+            android:value="rzp_test_BRsN3FcuYOTEVw" />
+    </application>
+
+</manifest>

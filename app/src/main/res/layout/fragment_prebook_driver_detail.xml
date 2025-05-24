@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Fragment.PrebookDriverDetailFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/toolbarCl"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ScrollView
+        android:id="@+id/scrollview1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="#EAEAEA"
+        android:padding="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbarCl"
+        app:layout_constraintVertical_bias="1.0"
+
+
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+
+            android:orientation="vertical"
+            android:padding="10dp"
+            >
+
+            <!--          BookInfo-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <!--pdfview-->
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="150dp"
+                    android:layout_height="150dp">
+
+                    <ImageView
+                        android:id="@+id/profileImageView"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/carimage_test"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        android:scaleType="centerCrop"
+                        />
+
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:orientation="vertical">
+
+                    <!--                    Book Title-->
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+
+
+                        <TextView
+                            style="@style/TextAppearance.MaterialComponents.Headline6"
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Auto Rikshaw"
+                            android:textColor="@color/black" />
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="10dp"
+                            android:layout_height="10dp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/baseline_keyboard_double_arrow_right_green" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+
+
+                            android:layout_height="wrap_content"
+                            android:text=" 3 wheeler"
+                            android:textColor="@color/black" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="10dp"
+                            android:layout_height="10dp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/baseline_keyboard_double_arrow_right_blue" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+
+
+                            android:layout_height="wrap_content"
+                            android:text=" Safe journey"
+                            android:textColor="@color/black" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="10dp"
+                            android:layout_height="10dp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/baseline_keyboard_double_arrow_right_24" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+
+
+                            android:layout_height="wrap_content"
+                            android:text=" Confort journey"
+                            android:textColor="@color/black" />
+
+                    </LinearLayout>
+
+
+                    <TextView
+                        android:id="@+id/NameTv"
+                        style="@style/TextAppearance.MaterialComponents.Headline6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Name"
+                        android:textColor="@color/black" />
+
+                    <TableLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <!--                            Category Row-->
+                        <TableRow>
+
+                            <TextView
+                                android:id="@+id/categoryLevelTv"
+                                style="@style/TextAppearance.AppCompat.Caption"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginEnd="5dp"
+                                android:text="Category"
+                                android:textColor="@color/black" />
+
+                            <TextView
+                                android:id="@+id/categoryTv"
+                                style="@style/TextAppearance.AppCompat.Caption"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginEnd="5dp"
+                                android:layout_weight="1"
+                                android:text="N/A"
+                                android:textColor="@color/black" />
+
+                        </TableRow>
+
+                        <!--                            Date Row-->
+                        <TableRow android:layout_marginTop="5dp">
+
+                            <TextView
+                                android:id="@+id/dateLevelTv"
+                                style="@style/TextAppearance.AppCompat.Caption"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginEnd="5dp"
+                                android:text="Joining Date"
+                                android:textColor="@color/black" />
+
+                            <TextView
+                                android:id="@+id/dateTv"
+                                style="@style/TextAppearance.AppCompat.Caption"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginEnd="5dp"
+                                android:layout_weight="1"
+                                android:text="N/A"
+                                android:textColor="@color/black" />
+                        </TableRow>
+
+                        <!--                            Size Row-->
+                        <TableRow android:layout_marginTop="5dp">
+
+                            <TextView
+                                android:id="@+id/isVerifiedLevelTv"
+                                style="@style/TextAppearance.AppCompat.Caption"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginEnd="5dp"
+                                android:text="is verified :"
+                                android:textColor="@color/black" />
+
+                            <TextView
+                                android:id="@+id/isVerifiedTTv"
+                                style="@style/TextAppearance.AppCompat.Caption"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginEnd="5dp"
+                                android:layout_weight="1"
+                                android:text="N/A"
+                                android:textColor="@color/black" />
+                        </TableRow>
+
+                        <!--                            Views Count Row-->
+                        <TableRow android:layout_marginTop="5dp">
+
+                            <TextView
+                                android:id="@+id/numberLevelTv"
+                                style="@style/TextAppearance.AppCompat.Caption"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginEnd="5dp"
+                                android:text="Number"
+                                android:textColor="@color/black" />
+
+                            <TextView
+                                android:id="@+id/NumberTv"
+                                style="@style/TextAppearance.AppCompat.Caption"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginEnd="5dp"
+                                android:layout_weight="1"
+                                android:text="N/A"
+                                android:textColor="@color/black" />
+                        </TableRow>
+
+                        <!--                            Downloads Count Row-->
+                        <TableRow android:layout_marginTop="5dp">
+
+                            <TextView
+                                android:id="@+id/EmailLevelTv"
+                                style="@style/TextAppearance.AppCompat.Caption"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginEnd="5dp"
+                                android:text="Email :"
+                                android:textColor="@color/black" />
+
+                            <TextView
+                                android:id="@+id/EmailTv"
+                                style="@style/TextAppearance.AppCompat.Caption"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginEnd="5dp"
+                                android:layout_weight="1"
+                                android:text="N/A"
+                                android:textColor="@color/black" />
+                        </TableRow>
+
+
+                    </TableLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <Button
+            android:id="@+id/callUserBtn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="1dp"
+            android:layout_weight="1"
+
+            android:drawableTop="@drawable/ic_fav_filled"
+            android:padding="5dp"
+            android:text="Call"
+            android:textSize="10sp"
+            android:backgroundTint="#292929"
+            />
+
+        <Button
+            android:id="@+id/bookUserBtn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginEnd="1dp"
+            android:layout_marginBottom="1dp"
+            android:layout_weight="1"
+
+            android:drawableTop="@drawable/ic_fav_filled"
+            android:padding="5dp"
+            android:text="Book Driver"
+            android:textSize="10sp"
+
+            android:backgroundTint="#292929"
+            />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

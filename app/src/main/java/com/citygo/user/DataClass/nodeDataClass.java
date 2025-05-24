@@ -1,0 +1,41 @@
+package com.citygo.user.DataClass;
+
+public class nodeDataClass {
+    public static final String DRIVER_EMAIL = "email";
+    public static final String DRIVER_FCM_TOKEN = "fcmToken";
+    public static final String DRIVER_IS_VERIFIED = "isVerified";
+    public static final String DRIVER_NAME = "name";
+    public static final String DRIVER_NUMBER = "number";
+    public static final String DRIVER_PROFILE_IMAGE = "profileImage";
+    public static final String DRIVER_RATING = "rating";
+    public static final String DRIVER_TIMESTAMP = "timeStamp";
+    public static final String DRIVER_UID = "uid";
+    public static final String DriverRequests = "DriverRequests";
+    public static final String profileImage = "profileImage";
+    public static final String address = "address";
+    public static final String licenceImage = "licenceImage";
+    public static final String carImage = "carImage";
+    public static final String rcNo = "rcNo";
+    public static final String insuranceImage = "insuranceImage";
+    public static final String carType = "carType";
+    public static final String DRIVER_NODE = "Drivers";
+    public static final String DRIVER_IS_AVAILABLE = "isAvailable";
+    public static final String ROOM = "Room";
+    public static final String REQUESTS = "requests";
+    public static final String LAT_LANG = "latLang";
+    public static final String PASSENGER_PICKUP_TIME = "pickupTime";
+    public static final String PASSENGER_PICKUP_DATE = "pickupDate";
+    public static final String PRE_BOOK = "preBook";
+    public static final String PASSENGERS = "Passengers";
+    public static final String APPROVED = "approved";
+    public static final String IS_CREATED = "isCreated";
+    public static final String PASSENGER = "Passenger";
+    public static final String HISTORY = "History";
+    public static final String CURRENT_BOOK = "currentBook";
+    public static final String ADVANCE_BOOK = "advanceBook";
+    public static final String TIME_STAMP = "TimeStamp";
+    public static final String FROM_WHERE = "FromWhere";
+    public static final String TO_WHERE = "ToWhere";
+    public static final String PASSENGER_UID = "PassengerUid";
+    public static final String DRIVERUID = "DriverUid";
+}

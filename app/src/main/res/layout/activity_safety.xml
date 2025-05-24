@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/blackbackground"
+    tools:context=".Activities.Safety">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        >
+
+        <ImageView
+            android:id="@+id/arroback6"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/arrowwhite"
+             />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/baseline_safety_checkicon"
+            android:layout_gravity="center"
+
+            />
+
+<!--        <TextView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="25dp"-->
+<!--            android:text="Safety"-->
+<!--            android:textSize="20sp"-->
+<!--            android:gravity="center"-->
+<!--            android:textColor="#FFFFFF" />-->
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+      android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+
+        android:background="@drawable/boxbackground"
+
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+
+           android:padding="15dp"
+
+
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="Safety of our app"
+                android:textSize="25dp"
+                android:textColor="#005187"
+                android:textStyle="bold"
+                 android:gravity="center"
+
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="At Citygo safety comes first. Here are some measures and steps to ensure your safety."
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="What we offer?"
+                android:textSize="25sp"
+                android:textColor="#00838F"
+                android:textStyle="bold"
+                android:gravity="center"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+               >
+
+                <ImageView
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                   android:src="@drawable/img_2"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp"
+                    android:text="24X7 Safety Check"
+                    android:textColor="#006E81"
+                    android:textSize="25sp"
+
+                   android:gravity="center"
+                    android:layout_marginLeft="10dp"
+                    />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Implementing a 24/7 safety check in your app means ensuring continuous monitoring and assessment of potential security risks and issues around the clock.."
+                android:textSize="18sp"
+
+                android:textStyle="italic"
+                android:paddingLeft="40dp"
+                android:layout_marginBottom="20dp"
+                />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                 >
+
+                    <ImageView
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        android:src="@drawable/img" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="45dp"
+                        android:text="Trip Insurance"
+                        android:textColor="#006E81"
+                        android:textSize="25sp"
+                        android:gravity="center"
+                        android:layout_marginLeft="10dp"
+                        />
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Implementing trip insurance in your app is an important feature that requires careful consideration of security aspects. ."
+                    android:textSize="18sp"
+                    android:layout_marginLeft="40dp"
+                    android:textStyle="italic"
+                    android:layout_marginBottom="20dp"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginBottom="20dp"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    >
+
+                    <ImageView
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        android:src="@drawable/img_5" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="45dp"
+                        android:text="Emergency Service "
+                        android:textColor="#006E81"
+                        android:textSize="25sp"
+                        android:gravity="center"
+                        android:layout_marginLeft="10dp"
+
+                        />
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Incorporating emergency services features into your app can be incredibly valuable, as it can potentially save lives and provide critical assistance during emergencies.."
+                    android:textSize="18sp"
+                    android:layout_marginLeft="40dp"
+                    android:textStyle="italic" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    >
+
+                    <ImageView
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        android:src="@drawable/img_7" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="45dp"
+                        android:text="Safe Night Service "
+                        android:textColor="#006E81"
+                        android:textSize="25sp"
+                        android:layout_marginLeft="10dp"
+                        android:gravity="center"
+                        />
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Safe night services in your app are designed to provide users with a sense of security and assistance during nighttime or in potentially risky situations.."
+                    android:textSize="18sp"
+                    android:layout_marginLeft="40dp"
+                    android:textStyle="italic"
+                    android:layout_marginBottom="20dp"
+
+                    />
+            </LinearLayout>
+
+            <!-- Add more LinearLayouts with safety features here -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="Other Safeties"
+                android:textSize="25sp"
+                android:textColor="#00838F"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_marginBottom="10dp"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginBottom="20dp"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                   >
+
+                    <ImageView
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        android:src="@drawable/img_8" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="45dp"
+                        android:text="User Ride,User's Rule"
+                        android:textColor="#006E81"
+                        android:textSize="25sp"
+                        android:layout_marginLeft="10dp"
+                        android:gravity="center"
+                        />
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="The user ride user rule in the context of a ride-sharing app refers to a set of guidelines or rules that govern the behavior and responsibilities of both riders and drivers using the platform. ."
+                    android:textSize="18sp"
+                    android:layout_marginLeft="40dp"
+                    android:textStyle="italic" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginBottom="20dp"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                 >
+
+                    <ImageView
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        android:src="@drawable/img_9" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Secure User Details"
+                        android:textColor="#006E81"
+                        android:textSize="25sp"
+                        android:gravity="center"
+                        android:layout_marginLeft="10dp"
+                        />
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="When dealing with user details in your app, it's essential to prioritize privacy, security, and transparency to build trust with your users. ."
+                    android:textSize="18sp"
+                    android:layout_marginLeft="40dp"
+                    android:textStyle="italic" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                   >
+
+                    <ImageView
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        android:src="@drawable/img_11" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="45dp"
+                        android:text="Always take feedback"
+                        android:textColor="#006E81"
+                        android:textSize="25sp"
+                        android:gravity="center"
+                        android:layout_marginLeft="10dp"
+                        />
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Taking feedback from users is a critical aspect of app development and improvement. It helps you understand user needs, preferences, and pain points. ."
+                    android:textSize="18sp"
+                    android:layout_marginLeft="40dp"
+                    android:textStyle="italic" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+</LinearLayout>

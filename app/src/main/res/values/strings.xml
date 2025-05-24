@@ -1,0 +1,94 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">User</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="open">open Drawer</string>
+    <string name="close">close Drawer</string>
+
+
+    <string name="privacy_policy_content" tools:ignore="StringEscaping">
+
+ Privacy Policy for CTGO \n
+
+        Thank you for using  , which is developed and operated by CityGo . This Privacy Policy is intended to inform you about the types of information we may collect from you or that you provide when you use the App and how we use, disclose, and safeguard that information.
+
+        By downloading, installing, or using the App, you consent to the practices described in this Privacy Policy. If you do not agree with this policy, please do not use the App.
+
+        Information We Collect \n
+
+        The App is designed to use LinearLayout in XML layout files and does not collect any personally identifiable information (PII) or sensitive data automatically. However, we may collect the following types of non-personal information:
+
+        - Usage Data: We may collect non-personal information about how you interact with the App, such as the features you use, the duration of your sessions, and other usage statistics.
+
+        How We Use Your Information
+
+
+
+
+
+        The App is not intended for use by individuals under the age of 13. We do not knowingly collect personal information from children under 13. If you are a parent or guardian and believe that your child has provided us with personal information, please contact us immediately at [contact email], and we will take steps to remove such information from our records.
+
+        Security
+
+        We take the security and privacy of your information seriously. We implement reasonable security measures to protect your non-personal information from unauthorized access or disclosure.
+
+        Changes to the Privacy Policy
+
+        We may update this Privacy Policy from time to time. The latest version will be posted on this page with the effective date. By continuing to use the App after any modifications to this Privacy Policy, you accept those changes.
+
+       Contact Us
+
+        If you have any questions or concerns about this Privacy Policy or our data practices, please contact us at [contact email]."
+
+</string>
+
+    <string name="terms_and_conditions_content">
+
+    Terms and Conditions for CTGO
+
+
+    Welcome to CTGO
+
+    By downloading, installing, or using the App, you agree to be bound by these Terms and Conditions. If you do not agree with any part of these Terms and Conditions, please do not use the App.\n
+
+    1. Use of the App
+
+    - You may use the App for your personal, non-commercial use only.
+    - You must comply with all applicable laws and regulations while using the App.\n
+
+    2. Intellectual Property
+
+    - The App and all its content, including but not limited to text, images, graphics, logos, and software, are the property of [Your Company Name] and are protected by copyright and other intellectual property laws.\n
+
+    3. Prohibited Activities
+
+    - You are strictly prohibited from engaging in any illegal, harmful, or unauthorized use of the App.
+    - You may not modify, distribute, transmit, display, perform, reproduce, publish, license, create derivative works from, transfer, or sell any information, software, products, or services obtained from the App.\n
+
+    4. Disclaimer of Warranty
+
+    - The App is provided on an  basis, without warranties of any kind, either express or implied.
+    - [Your Company Name] disclaims all warranties, including but not limited to implied warranties of merchantability, fitness for a particular purpose, and non-infringement.\n
+
+    5. Limitation of Liability
+
+    - [Your Company Name] and its affiliates will not be liable for any indirect, incidental, special, or consequential damages arising out of or in connection with the use or inability to use the App.\n
+
+    6. Changes to the Terms and Conditions
+
+    - [Your Company Name] reserves the right to update or modify these Terms and Conditions at any time without prior notice.
+    - Your continued use of the App after any changes to the Terms and Conditions constitutes your acceptance of such changes.\n
+
+    7. Contact Us
+
+    If you have any questions or concerns about these Terms and Conditions, please contact us at [contact email].
+
+</string>
+    <string name="title_activity_emptyview3">emptyview3</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+
+</resources>

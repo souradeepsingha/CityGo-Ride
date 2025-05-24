@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blackbackground"
+    tools:context=".Activities.Support"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical"
+        android:padding="10dp"
+        >
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/arrowwhite"
+            android:id="@+id/arrowback4"
+
+            />
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/help_white"
+            android:layout_gravity="center"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="Help"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:orientation="horizontal"
+        android:layout_margin="20dp"
+        android:gravity="center">
+
+        <!-- Security Start -->
+        <LinearLayout
+            android:layout_width="150dp"
+            android:layout_height="120dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:background="@drawable/boxbackground"
+
+            android:id="@+id/security"
+            >
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/security"
+                />
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:text="Security"
+                android:textColor="#000000"
+                android:textSize="20dp" />
+
+        </LinearLayout>
+        <!-- Security End -->
+
+        <!-- Add 40dp space -->
+        <Space
+            android:layout_width="40dp"
+            android:layout_height="match_parent" />
+
+        <!-- Ride Start -->
+        <LinearLayout
+            android:layout_width="150dp"
+            android:layout_height="120dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:background="@drawable/boxbackground"
+
+            android:id="@+id/layoutride"
+            >
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+
+                android:src="@drawable/ride"
+                />
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:text="Ride"
+                android:textColor="#000000"
+                android:textSize="20dp" />
+
+        </LinearLayout>
+        <!-- Ride End -->
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:orientation="horizontal"
+        android:layout_margin="20dp"
+        android:gravity="center">
+
+        <!-- Security Start -->
+        <LinearLayout
+            android:layout_width="150dp"
+            android:layout_height="120dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:background="@drawable/boxbackground"
+
+            android:id="@+id/LayoutAccount"
+            >
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+               android:src="@drawable/account"
+
+                />
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:text="Account"
+                android:textColor="#000000"
+                android:textSize="20dp" />
+
+        </LinearLayout>
+        <!-- Security End -->
+
+        <!-- Add 40dp space -->
+        <Space
+            android:layout_width="40dp"
+            android:layout_height="match_parent" />
+
+        <!-- Ride Start -->
+        <LinearLayout
+            android:layout_width="150dp"
+            android:layout_height="120dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:background="@drawable/boxbackground"
+            android:id="@+id/layoutservices1"
+            >
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/services"
+                />
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:text="Services"
+                android:textColor="#000000"
+                android:textSize="20dp" />
+
+        </LinearLayout>
+        <!-- Ride End -->
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:orientation="horizontal"
+        android:layout_margin="20dp"
+        android:gravity="center">
+
+        <!-- Security Start -->
+        <LinearLayout
+            android:layout_width="150dp"
+            android:layout_height="120dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:background="@drawable/boxbackground"
+
+            android:id="@+id/layouttechnical"
+            >
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/technical"
+                />
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:text="Technical"
+                android:textColor="#000000"
+                android:textSize="20dp" />
+
+        </LinearLayout>
+        <!-- Security End -->
+
+        <!-- Add 40dp space -->
+        <Space
+            android:layout_width="40dp"
+            android:layout_height="match_parent" />
+
+        <!-- Ride Start -->
+        <LinearLayout
+            android:layout_width="150dp"
+            android:layout_height="120dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:background="@drawable/boxbackground"
+            android:id="@+id/layoutpayment"
+            android:padding="10dp"
+
+            >
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="70dp"
+                android:src="@drawable/payment"
+
+                />
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:text="Payment"
+                android:textColor="#000000"
+                android:textSize="20dp" />
+
+        </LinearLayout>
+        <!-- Ride End -->
+
+    </LinearLayout>
+
+</LinearLayout>

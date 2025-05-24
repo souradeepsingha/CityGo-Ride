@@ -1,0 +1,212 @@
+{
+  "project_info": {
+    "project_number": "820727944644",
+    "firebase_url": "https://allproject-fe333-default-rtdb.firebaseio.com",
+    "project_id": "allproject-fe333",
+    "storage_bucket": "allproject-fe333.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:820727944644:android:ecc5f2ecace0d2761c0091",
+        "android_client_info": {
+          "package_name": "com.citygo.adminapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "820727944644-3l7fb7ad0kqap445tmfb7fdir47cqv0a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.citygo.adminapp",
+            "certificate_hash": "59df488f9cbfba8c720e45f5821a3ff0897342e8"
+          }
+        },
+        {
+          "client_id": "820727944644-bks5d60ndn9031gdlph94mh93e3o7agn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.citygo.adminapp",
+            "certificate_hash": "f3d02293f1853ae67a3cb160bcd2b6c1d85572a0"
+          }
+        },
+        {
+          "client_id": "820727944644-l7qn6fv21ubbtmufpilci4ak0jg48jop.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLvMEnkgt-dGAOyoq6TUXhEqBubB907io"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "820727944644-l7qn6fv21ubbtmufpilci4ak0jg48jop.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:820727944644:android:74e1d84429409f951c0091",
+        "android_client_info": {
+          "package_name": "com.citygo.driverapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "820727944644-c215dupfbq6d8ibjat2p641hvrlar66t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.citygo.driverapp",
+            "certificate_hash": "59df488f9cbfba8c720e45f5821a3ff0897342e8"
+          }
+        },
+        {
+          "client_id": "820727944644-mbch8ct5ph8hj4h66ga5sur3is2fqpqe.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.citygo.driverapp",
+            "certificate_hash": "f3d02293f1853ae67a3cb160bcd2b6c1d85572a0"
+          }
+        },
+        {
+          "client_id": "820727944644-l7qn6fv21ubbtmufpilci4ak0jg48jop.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLvMEnkgt-dGAOyoq6TUXhEqBubB907io"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "820727944644-l7qn6fv21ubbtmufpilci4ak0jg48jop.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:820727944644:android:886e93e33c91186a1c0091",
+        "android_client_info": {
+          "package_name": "com.citygo.user"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "820727944644-2p6pv5gq9njg3t28rlm36jo2o6vrqd56.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.citygo.user",
+            "certificate_hash": "f3d02293f1853ae67a3cb160bcd2b6c1d85572a0"
+          }
+        },
+        {
+          "client_id": "820727944644-e0vne4ouajshl6avoalb7t75he8c2rhd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.citygo.user",
+            "certificate_hash": "59df488f9cbfba8c720e45f5821a3ff0897342e8"
+          }
+        },
+        {
+          "client_id": "820727944644-l7qn6fv21ubbtmufpilci4ak0jg48jop.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLvMEnkgt-dGAOyoq6TUXhEqBubB907io"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "820727944644-l7qn6fv21ubbtmufpilci4ak0jg48jop.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:820727944644:android:2358fc47a3f89b5d1c0091",
+        "android_client_info": {
+          "package_name": "com.citygomain.adminapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "820727944644-l7qn6fv21ubbtmufpilci4ak0jg48jop.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLvMEnkgt-dGAOyoq6TUXhEqBubB907io"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "820727944644-l7qn6fv21ubbtmufpilci4ak0jg48jop.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:820727944644:android:f6ea5e39fed18d9a1c0091",
+        "android_client_info": {
+          "package_name": "com.citygomain.driverapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "820727944644-ip3dvcsa9f8pjgakl73atqd6mpnb3kng.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.citygomain.driverapp",
+            "certificate_hash": "59df488f9cbfba8c720e45f5821a3ff0897342e8"
+          }
+        },
+        {
+          "client_id": "820727944644-l7qn6fv21ubbtmufpilci4ak0jg48jop.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLvMEnkgt-dGAOyoq6TUXhEqBubB907io"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "820727944644-l7qn6fv21ubbtmufpilci4ak0jg48jop.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

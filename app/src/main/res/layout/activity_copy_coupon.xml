@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.CopyCoupon"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#292929"
+
+        >
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+
+            android:src="@drawable/arrowwhite"
+            android:layout_margin="10dp"
+            />
+
+
+
+
+    </LinearLayout>
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/animation_view"
+        app:lottie_rawRes="@raw/copycoupon"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"/>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        >
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:text="C i t y g o 3 0"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:id="@+id/copytext"
+        android:textColor="#292929"
+        android:textStyle="bold"
+
+        />
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:src="@drawable/baseline_content_copy_24"
+       android:id="@+id/copyimg"
+        />
+
+    </LinearLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Go to Ride"
+        />
+</LinearLayout>

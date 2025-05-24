@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.emptyview3"
+    android:orientation="vertical"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+
+        >
+
+
+
+        <AutoCompleteTextView
+            android:hint=" Enter Your Location"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:id="@+id/autocomplete2"
+            tools:ignore="MissingConstraints"
+            android:padding="10dp"
+            android:background="@drawable/searchedittext"
+            android:drawableLeft="@drawable/baseline_arrow_back_24"
+
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#FFA100"
+        >
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="#FFF1DA"
+
+        >
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:src="@drawable/baseline_edit_location_alt_24"
+
+            />
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:text="RECENT SEARCHES"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="15dp"
+
+            />
+
+
+
+    </LinearLayout>
+    <ListView
+        android:id="@+id/recentSearchListView"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_below="@id/autocomplete"
+        android:layout_marginTop="16dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="#FFF1DA"
+
+        >
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:src="@drawable/popularcity"
+            android:id="@+id/Recentsearch"
+            />
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:text="POPULAR CITIES"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="15dp"
+
+            />
+
+
+
+    </LinearLayout>
+    <!-- activity_main.xml -->
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ListView
+            android:id="@+id/listView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+</LinearLayout>

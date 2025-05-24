@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Activities.payment_option"
+        android:orientation="vertical"
+        >
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:hint="Enter you name "
+            android:id="@+id/edtname"
+
+            tools:ignore="MissingConstraints"
+            android:layout_margin="10dp"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:hint="Enter your UPI iD"
+            android:id="@+id/edtupiid"
+
+            tools:ignore="MissingConstraints"
+            android:layout_margin="10dp"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:hint="Enter your msg"
+            android:id="@+id/edtmsg"
+
+            tools:ignore="MissingConstraints"
+            android:layout_margin="10dp"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:hint="Enter your amount"
+            android:id="@+id/edtamt"
+
+            tools:ignore="MissingConstraints"
+            android:layout_margin="10dp"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:hint="Enter your Transaction id"
+            android:id="@+id/edttnid"
+
+            tools:ignore="MissingConstraints"
+            android:layout_margin="10dp"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:hint="Enter your Transaction id"
+            android:id="@+id/edtrefid"
+
+            tools:ignore="MissingConstraints"
+            android:layout_margin="10dp"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="pay"
+            android:id="@+id/btnpay"
+            />
+
+    </LinearLayout>
+
+

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/back01"
+    tools:context=".Fragment.preBookDriverListFragment"
+
+    android:orientation="vertical"
+
+
+    >
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="100dp"
+       android:layout_marginStart="5dp"
+       android:layout_marginTop="5dp"
+       android:orientation="horizontal">
+
+      <LinearLayout
+          android:layout_width="34dp"
+          android:layout_height="match_parent"
+          android:orientation="vertical"
+
+          >
+
+         <ImageView
+             android:layout_width="24dp"
+             android:layout_height="wrap_content"
+             android:layout_gravity="center"
+
+             android:layout_marginTop="25dp"
+             android:layout_marginBottom="25dp"
+             android:src="@drawable/locdestdotimg" />
+
+
+      </LinearLayout>
+
+      <LinearLayout
+          android:layout_width="320dp"
+          android:layout_height="match_parent"
+          android:orientation="vertical"
+          android:padding="10dp">
+
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="40dp"
+             android:id="@+id/location1"
+
+             android:ellipsize="end"
+             android:ems="3"
+
+             android:gravity="center"
+             android:lines="1"
+
+             android:text="Mahishbathan pratham khanda,cooch behar"
+
+             android:textColor="@color/black"
+             android:textSize="18dp" />
+
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="40dp"
+             android:id="@+id/destination1"
+
+             android:layout_gravity="center"
+             android:ellipsize="end"
+
+             android:ems="3"
+             android:gravity="center"
+             android:lines="1"
+             android:text="Khagrabari,coochbehar,west bengal,india"
+
+             android:textColor="@color/black"
+             android:textSize="18dp" />
+
+
+      </LinearLayout>
+
+
+   </LinearLayout>
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Recommend for you "
+       android:textSize="19dp"
+       android:textStyle="italic"
+
+       />
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text=""
+        android:id="@+id/moneyinrupee"
+
+
+       />
+   <androidx.recyclerview.widget.RecyclerView
+       android:id="@+id/PreBookDriverListRV"
+       app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+       tools:listitem="@layout/row_driver_prebook"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"/>
+
+</LinearLayout>
